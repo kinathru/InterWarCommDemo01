@@ -22,6 +22,9 @@ public class GroundServiceConfig
         if( ServiceHandler.getiGroundService() == null )
         {
             ServiceHandler.setiGroundService( new GroundServiceAdapter() );
+            System.out.println("\n\n################################################");
+            System.out.println("Service Handler set Ground Service Successfully");
+            System.out.println("################################################\n\n");
         }
     }
 }
