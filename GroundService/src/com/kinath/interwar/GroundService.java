@@ -10,7 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @CrossOrigin
 @RestController
-@RequestMapping("/groundservice") public class GroundService
+@RequestMapping("/groundservice")
+public class GroundService
 {
     private static GroundService instance;
 
